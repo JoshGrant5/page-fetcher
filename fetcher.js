@@ -45,7 +45,7 @@ request(data[0], (error, response, body) => {
           }
         });
       } else {
-        write(body);
+        write(body); // write to file
       }
     });
   }
